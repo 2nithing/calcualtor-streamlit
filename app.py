@@ -10,10 +10,10 @@ num2 = st.number_input('enter the second number',value=0)
 clicked = st.button('Submit')
 if clicked:
     if option=="+":
-        st.write("Answer is", num1+num2)
+        st.header(f"Answer is **{num1+num2}**")
     if option=="-":
-        st.write("Answer is", num1-num2)
+        st.header(f"Answer is **{num1-num2}**")
     if option=="x":
-        st.write("Answer is", num1*num2)
+        st.header(f"Answer is **{num1*num2}**")
     if option=="/":
-        st.write("Answer is", num1/num2)
+        st.header(f"Answer is **{num1/num2}**")
